@@ -1,0 +1,210 @@
+/* html * {
+  background: rgba(255, 0, 0, .1);
+  box-shadow: 0 0 0 1px blue;                            /*  use this code if u want to get debug css work */
+    /* } */
+
+body{
+  /* color: #40514E; */
+  background-color: #FFDADA;
+  margin:0px;   /*all 4 sides to 0*/                                /*  text-align center inside the container,
+                                                                        or the parent element,   */
+  text-align: center;                                               /*  will center everything
+                                                                       inside that doesn't have a width set.*/
+  font-family: "Sriracha",serif;
+  /* font-size: 19px; */
+}
+
+h1{
+  margin:0px auto 10px ;
+  font-family: "WindSong",cursive;
+  color: #66BFBF;
+  /* line-height: 2;  i didnt like it*/
+
+                                       /* writing em & having parent settings i.e in body{} if we gave font size then it will get added to this em here, and size value increases   */
+  font-size:5.1rem;   /*1em=16px   we kept 80px so 80/16=5em another way is 16px=100% so 80/16x100 also works       */
+                                          /* rem ignore all parent settings */
+  /* width:10%; */
+  /* margin: 0 auto 9px auto; */            /*if not text-align: center can use this*/
+}
+
+h2{
+  color: #66BFBF;
+  font-family: "Pacifico",cursive;
+  font-size: 2.1rem;
+}
+
+h3{
+  color: #11999E;
+  font-family: "Lobster",sans-serif;
+}
+
+.formm{
+
+  font-family: "Pacifico",cursive;
+  /* font-family: "Sriracha",serif; */
+
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none; /*for removing underline for links*/
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 10%;
+  padding-bottom: 30px; /**/
+}
+/*******************************/
+.skill-row{
+  width: 50%;
+  margin: 50px auto ;  /**/
+  text-align: left;
+  /* line-height: 2; */
+}
+
+.profile{
+  margin: 50px auto ;   /**/
+}
+
+.draw{
+  /* position:relative;
+  left: 150px; */
+  float: right;
+  padding-top: 30px;
+  /* margin-right: 30px; or  */
+  padding-left: 30px;
+}
+
+.compcode{
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-link{
+  padding: 15px;
+}
+.footer-link:hover{
+   color: #EAF6F6;
+}
+
+.btn{
+  /* border: none;
+  border-radius: 5px;
+  color: #66BFBF; */
+
+    background: #66e9ed;
+    background-image: -webkit-linear-gradient(top, #66e9ed, #1b9dbd);
+    background-image: -moz-linear-gradient(top, #66e9ed, #1b9dbd);
+    background-image: -ms-linear-gradient(top, #66e9ed, #1b9dbd);
+    background-image: -o-linear-gradient(top, #66e9ed, #1b9dbd);
+    background-image: linear-gradient(to bottom, #66e9ed, #1b9dbd);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #fca4cd;
+    background-image: -webkit-linear-gradient(top, #fca4cd, #ff007b);
+    background-image: -moz-linear-gradient(top, #fca4cd, #ff007b);
+    background-image: -ms-linear-gradient(top, #fca4cd, #ff007b);
+    background-image: -o-linear-gradient(top, #fca4cd, #ff007b);
+    background-image: linear-gradient(to bottom, #fca4cd, #ff007b);
+    text-decoration: none;
+  }
+
+
+.copyright{
+  color: white;
+  font-size: 0.8em;
+}
+
+.contact-me{
+  padding-bottom: 30px;
+}
+
+.top-container{
+  background-color: #C3EDEA;
+  margin:0px;
+
+  /* border: solid; */
+  /* border-width:1px 5px 10px 15px; */
+}
+
+.cse{
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+/* .me{
+  margin-top: 30px;
+} */
+.intro{
+  width: 60%;
+  margin: auto;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+   background-color:#66BFBF;
+   padding: 15px 0 ;
+}
+.c1{
+  margin-top: 20px;
+  position: relative;
+  left:200px;
+}
+.c2{
+  position: absolute;
+  left:150px;
+}
+.c3{
+  position: absolute;
+  right: 80px;
+}
+.mount{
+  /* position: relative;
+  bottom:130px; */
+}
+
+.submitt {
+  background: #f7137e;
+  background-image: -webkit-linear-gradient(top, #f7137e, #fa6cba);
+  background-image: -moz-linear-gradient(top, #f7137e, #fa6cba);
+  background-image: -ms-linear-gradient(top, #f7137e, #fa6cba);
+  background-image: -o-linear-gradient(top, #f7137e, #fa6cba);
+  background-image: linear-gradient(to bottom, #f7137e, #fa6cba);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.submitt:hover {
+  background: #fa6cba;
+  background-image: -webkit-linear-gradient(top, #fa6cba, #f7137e);
+  background-image: -moz-linear-gradient(top, #fa6cba, #f7137e);
+  background-image: -ms-linear-gradient(top, #fa6cba, #f7137e);
+  background-image: -o-linear-gradient(top, #fa6cba, #f7137e);
+  background-image: linear-gradient(top bottom, #fa6cba, #f7137e);
+  text-decoration: none;
+}
