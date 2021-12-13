@@ -160,6 +160,21 @@ hr{
 
 }
 
+.makk:after {
+  content: "arts";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    background-image: url("http://placehold.it/100x100/09f/fff.png");
+    background-size: 100px 100px;
+    background-position: 30px 30px;
+    background-repeat: no-repeat;
+    opacity: 0.0;
+}
+
 .bottom-container{
    background-color:#66BFBF;
    padding: 15px 0 ;
